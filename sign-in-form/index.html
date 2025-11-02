@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+</head>
+<body>
+    <header>
+        <h1>Sign in</h1>
+    </header>
+
+    <main>
+
+        <form action="submission.html" method="POST">
+            <section id="email">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter email" required>
+            </section>
+            <section id="password">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Enter password"
+                    minlength="8" maxlength="20" required>
+            </section>
+            <section id="submit">
+                <input type="submit" value="sign in" >
+            </section>
+        </form>
+        <section id="option">
+            <br>
+            <a href="forget-password.html">Reset password?</a>
+            <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+        </section>
+    </main>
+</body>
+</html>
