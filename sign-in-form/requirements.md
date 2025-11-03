@@ -15,4 +15,4 @@
 
 ## Forgot Password:
 
-- Users can reset their password through a guided process (forget-password.html).
+- Users can reset their password through a guided process (forget-password.htm
